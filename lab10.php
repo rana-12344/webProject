@@ -1,5 +1,5 @@
 <?php 
-$con=mysqli_connect("localhost","root","","products") 
+$con=mysqli_connect("localhost","root","","prod") 
 or die (mysqli_connection_error());
 echo "Connected to MySQL <br>";
 
