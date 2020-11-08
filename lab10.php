@@ -31,5 +31,5 @@ while ($row=mysqli_fetch_array($result,MYSQLI_ASSOC))
 mysqli_query($con,"INSERT INTO products_info (p_name  ,p_price)VALUED('Sony Experia 22','1350')")
 or die (Mysqli_Connect_error());
 
-$res=mysqli_query($con,"UPDATE products_info SET p_price=1600 Where p_name='BLACHBERRY'")
+$res=mysqli_query($con,"UPDATE products_info SET p_price=1600 Where p_nme='BLACHBERRY'")
 or die (Mysqli_Connect_error());
